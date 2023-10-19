@@ -1,0 +1,25 @@
+{
+  "name": "react-oc-modal-module",
+  "version": "0.0.4",
+  "description": "Module pour afficher un modal sous React",
+  "main": "dist/ConfirmationModal.js",
+  "source": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --copy-files"
+  },
+  "author": "DOMINGUES Vincent / Avalonne",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "module": "dist/index.es.js",
+  "unpkg": "dist/index.umd.js",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15"
+  }
+}
