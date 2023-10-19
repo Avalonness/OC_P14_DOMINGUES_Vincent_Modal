@@ -1,6 +1,6 @@
 {
   "name": "react-oc-modal-module",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Module pour afficher un modal sous React",
   "main": "dist/ConfirmationModal.js",
   "source": "src",

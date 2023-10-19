@@ -1,28 +1,28 @@
-# react_oc_modal
+# react-oc-modal-module
 
-`react_oc_modal` est un simple plugin React qui fournit un composant modal personnalisable pour vos applications React.
+`react-oc-modal-module` est un simple plugin React qui fournit un composant modal personnalisable pour vos applications React.
 
 ## Installation
 
-Vous pouvez installer `react_oc_modal` en utilisant npm ou yarn :
+Vous pouvez installer `react-oc-modal-module` en utilisant npm ou yarn :
 
 ```bash
-npm install react_oc_modal
+npm install react-oc-modal-module
 ```
 
 ou
 
 ```bash
-yarn add react_oc_modal
+yarn add react-oc-modal-module
 ```
 ## Utilisation
 
-Pour utiliser react_oc_modal dans votre application React, suivez ces étapes :
+Pour utiliser react-oc-modal-module dans votre application React, suivez ces étapes :
 
 Importez le composant ConfirmationModal dans votre projet :
 
 ```jsx
-import ConfirmationModal from 'react_oc_modal';
+import ConfirmationModal from 'react-oc-modal-module';
 ```
 
 Insérer le composant ConfirmationModal au sein de votre composant React :
@@ -46,11 +46,11 @@ Exemple d'utilisation :
 ```
 
 ## Exemple
-Voici un exemple simple d'utilisation de react_oc_modal dans votre composant React :
+Voici un exemple simple d'utilisation de react-oc-modal-module dans votre composant React :
 
 ```jsx
 import React, { useState } from 'react';
-import ConfirmationModal from 'react_oc_modal';
+import ConfirmationModal from 'react-oc-modal-module';
 
 function MonComposant() {
   const [montrerModal, setMontrerModal] = useState(false);
